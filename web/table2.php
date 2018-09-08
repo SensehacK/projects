@@ -134,31 +134,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <?php
-
-include('dbconnect.php'); 
+$MyUsername = "root";  // enter your username for mysql
+$MyPassword = "";  // enter your password for mysql
+$MyHostname = "localhost";
+$mysqli = new mysqli($MyHostname , $MyUsername, $MyPassword);
 
 
     // Retrieve all records and display them
-    $result = mysqli_query("SELECT * FROM test.iot ORDER BY id ASC");
+    $result = mysqli_query("SELECT * FROM iot ORDER BY id ASC");
 
 
+$profile_name = array_values(mysqli_fetch_array($mysqli->query("SELECT username from test.profile WHERE id = 2 ")))[0]; //retrieving name 
 
 echo nl2br("\n");
 echo nl2br("\n");
 
+echo "Hello User " . $profile_name ;
 
+echo nl2br("\n");
+echo nl2br("\n");
+
+echo nl2br("Hello, \nSensehack \n");
 
 echo nl2br("\n");
 echo nl2br("\n");
 
 echo nl2br("\n");
     // Used for row color toggle
-    
+    $oddrow = true;
 
     // process every record
-    while($row = mysqli_fetch_array($result))
+    while( $row = mysqli_fetch_array($result) )
     {
-        
+        if ($oddrow) 
+        { 
+            $css_class=' class="table_cells_odd"'; 
+        }
+        else
+        { 
+            $css_class=' class="table_cells_even"'; 
+        }
+
+        $oddrow = !$oddrow;
+
         echo '<tr>';
         echo '   <td>'.$row["id"].'</td>';
         echo '   <td>'.$row["event"].'</td>';
@@ -172,7 +190,7 @@ echo nl2br("\n");
 ?>
 
 
-</table>
+
 
 
 
