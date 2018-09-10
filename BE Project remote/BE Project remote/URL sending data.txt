@@ -1,0 +1,13 @@
+ http://localhost/BE Project/add_data.php?serial=288884820500006b&temperature=20.79 
+
+http://localhost/BE%20Project/add_data.php?serial=288884820500006b&temperature=20.79
+
+
+
+
+
+Three Variables
+
+
+http://localhost/BE%20Project/add_data.php?serial=2888846b&pulserate=79&heartrate
+=76
