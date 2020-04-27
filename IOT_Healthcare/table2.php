@@ -1,0 +1,350 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>We Care a Medical Category Flat Bootstrap Responsive website Template | Short Codes :: w3layouts</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="We Care Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->	
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header navbar-left">
+					<h1><a href="index.html"><img src="images/logo.png" alt="">We Care</a></h1>
+				</div>
+				<!--navigation-->
+				<div class="header-text navbar-left">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting<p>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="header-right">
+					<div class="top-nav-text">
+						<ul>
+							<li>Call us: <span>+11 111 2222</span></li>
+							<li>Email : <a class="email-link" href="mailto:example@mail.com">mail@example.com</a></li>
+							<li>
+								<ul class="social-icons">
+									<li><a href="#"></a></li>
+									<li><a href="#" class="pin"></a></li>
+									<li><a href="#" class="in"></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">					
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="index.html" class="link link--yaku"><span>H</span><span>O</span><span>M</span><span>E</span></a></li>
+							<li><a href="about.html" class="link link--yaku"><span>A</span><span>B</span><span>O</span><span>U</span><span>T</span></a></li>
+							<li class="active"><a href="codes.html"><span>S</span><span>H</span><span>O</span><span>R</span><span>T</span> <span>C</span><span>O</span><span>D</span><span>E</span><span>S</span></a></li>
+							<li><a href="#" class="dropdown-toggle link link--yaku" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>G</span><span>A</span><span>L</span><span>L</span><span>E</span><span>R</span><span>Y</span><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery1</a></li>
+									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery2</a></li>
+									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery3</a></li>      
+								</ul>
+							</li>
+							<li><a href="contact.html" class="link link--yaku"><span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span> <span>U</span><span>S</span></a></li>
+						</ul>		
+						<div class="clearfix"> </div>
+					</div><!--//navigation-->
+				</div>
+				<div class="clearfix"> </div>
+			</div>	
+		</nav>		
+	</div>	
+	<!--//header-->
+	<div class="banner about-bnr">
+		<div class="container">
+		</div>
+	</div>
+	<!--Shortcodes-page -->
+
+
+	<div class="codes">
+		<div class="container">
+			<h3 class="title1">Short <span>Codes</span></h3>
+			
+
+
+
+
+					</div><!-- /input-group -->
+				</div><!-- /.col-lg-6 -->
+			</div><!-- /.row -->
+			<div class="page-header">
+				<h3 class="hdg">Tables</h3>
+			</div>
+			<h2 class="typoh2">Default styles</h2>
+			<p>For basic stylinglight padding and only horizontal add the base class <code>.table</code> to any <code>&lt;table&gt;</code>.</p>
+			
+
+
+
+			<p>Add borders and rounded corners to the table.</p>
+			<div class="bs-docs-example">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Date and Time</th>
+							<th>Sensor Serial</th>
+							<th>Pulse Rate</th>
+							<th>Heart Rate</th>
+
+						</tr>
+
+
+					</thead>
+
+
+<?php
+$MyUsername = "root";  // enter your username for mysql
+$MyPassword = "";  // enter your password for mysql
+$MyHostname = "localhost";
+$mysqli = new mysqli($MyHostname , $MyUsername, $MyPassword);
+
+
+    // Retrieve all records and display them
+    $result = mysqli_query("SELECT * FROM iot ORDER BY id ASC");
+
+
+$profile_name = array_values(mysqli_fetch_array($mysqli->query("SELECT username from test.profile WHERE id = 2 ")))[0]; //retrieving name 
+
+echo nl2br("\n");
+echo nl2br("\n");
+
+echo "Hello User " . $profile_name ;
+
+echo nl2br("\n");
+echo nl2br("\n");
+
+echo nl2br("Hello, \nSensehack \n");
+
+echo nl2br("\n");
+echo nl2br("\n");
+
+echo nl2br("\n");
+    // Used for row color toggle
+    $oddrow = true;
+
+    // process every record
+    while( $row = mysqli_fetch_array($result) )
+    {
+        if ($oddrow) 
+        { 
+            $css_class=' class="table_cells_odd"'; 
+        }
+        else
+        { 
+            $css_class=' class="table_cells_even"'; 
+        }
+
+        $oddrow = !$oddrow;
+
+        echo '<tr>';
+        echo '   <td>'.$row["id"].'</td>';
+        echo '   <td>'.$row["event"].'</td>';
+        echo '   <td>'.$row["sensor"].'</td>';
+        echo '   <td>'.$row["pulse"].'</td>';
+		echo '   <td>'.$row["heart"].'</td>';
+        echo '</tr>';
+    }
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<tbody>
+						<tr>
+							<td rowspan="2">1</td>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@getbootstrap</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td colspan="2">Larry the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<p>Enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+			<div class="bs-docs-example">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+						  <th>#</th>
+						  <th>First Name</th>
+						  <th>Last Name</th>
+						  <th>Username</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td>1</td>
+						  <td>Mark</td>
+						  <td>Otto</td>
+						  <td>@mdo</td>
+						</tr>
+						<tr>
+						  <td>2</td>
+						  <td>Jacob</td>
+						  <td>Thornton</td>
+						  <td>@fat</td>
+						</tr>
+						<tr>
+						  <td>3</td>
+						  <td colspan="2">Larry the Bird</td>
+						  <td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!--//short-codes-->		
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<h3 class="title">GET IN <span>TOUCH</span></h3>
+			<div class="footer-grids">
+				<div class="col-md-6 footer-left">
+					<h5><a href="#">Ready to hire me?</a></h5>
+					<div class="more">
+						<a href="contact.html">Get in touch</a>
+					</div>
+				</div>
+				<div class="col-md-6 footer-right">
+					<div class="address">
+						<div class="col-xs-2 contact-grdl">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 contact-grdr">
+							<p>+111 222 3333 111</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address">
+						<div class="col-xs-2 contact-grdl">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 contact-grdr">
+							<p>345 Diamond Street,London.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address">
+						<div class="col-xs-2 contact-grdl">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 contact-grdr">
+							<p><a href="mailto:example@mail.com">mail@example.com</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--copy-right-->
+	<div class="copy-right">
+		<div class="container">
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#" class="gg"></a></li>
+				<li><a href="#" class="twt"></a></li>
+				<li><a href="#" class="be"></a></li>
+			</ul>
+			<div class="clearfix"> </div>
+			<p>© 2016 We care . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>	
+		</div>
+	</div>
+	<!--//copy-right-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
