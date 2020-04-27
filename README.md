@@ -4,10 +4,10 @@ This repository consists of all of the static websites created by me with using 
 
 ## Mini Projects Links
 
-[AR POC](https://sensehack.github.io/web/AR/)
-[Backbencher](https://sensehack.github.io/web/Backbencher/)
-[OYCE](https://sensehack.github.io/web/OYCE/)
-[IOT Healthcare](https://sensehack.github.io/web/IOT_Healthcare/)
+-[AR POC](https://sensehack.github.io/projects/AR/)
+-[Backbencher](https://sensehack.github.io/projects/Backbencher/)
+-[OYCE](https://sensehack.github.io/projects/OYCE/)
+-[IOT Healthcare](https://sensehack.github.io/projects/IOT_Healthcare/)
 
 ## Issue
 
